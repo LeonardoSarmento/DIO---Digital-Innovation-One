@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #ffffff;
+    --secondary-color: #000;
+    --gap: 3rem;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+h1{
+    font-size: 6rem;
+    text-transform: uppercase;
+    
+}
+h2{
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+h3{
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+h4{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+h5{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+h6{
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    text-align: center;
+    position: relative;
+    top: 80px;
+    height: 300px;
+}
+.container-m1{
+    background-color: bisque;
+    padding: 20px;
+
+}
+.m1-certificados div{
+    margin: 15px;
+    text-align: center;
+}
+.container-m1 embed{
+    width:600px;
+    height:450px;
+}
+.m1-certificados{
+    display: grid;
+    grid-template-rows:1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.footer{
+    text-align: center;
+    font-size: 1.1rem;
+}
+.footer a{
+    color: var(--secondary-color);
+}
+.footer p{
+    margin: 0;
+    padding: 3rem;
+}
+.footer img{
+    width: 1rem;
+}
