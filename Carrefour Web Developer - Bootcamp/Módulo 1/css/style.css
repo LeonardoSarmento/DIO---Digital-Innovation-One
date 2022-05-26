@@ -90,3 +90,38 @@ a{
 .footer img{
     width: 1rem;
 }
+h4{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 30px;
+    margin-bottom: 10px ;
+}
+@media (max-width:930px){
+    .m1-certificados{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .container-m1 embed{
+        width:100%;
+    }
+}
+@media (min-width:931px) and (max-width:1399px){
+    .m1-certificados{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .container-m1 embed{
+        width:100%;
+    }
+}
+@media (min-width:1400px) and (max-width:1920px){
+    .m1-certificados{
+        display: grid;
+        grid-template-rows:1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .container-m1 embed{
+        width:100%;
+    }
+}
