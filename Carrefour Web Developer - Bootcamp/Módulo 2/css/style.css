@@ -106,8 +106,8 @@ header nav a:hover{
 }
 .carrosel-filmes h2{
     margin: 50px 0 10px 0;
-    line-height: 1.25vw;
-    font-size: 1.4vw;
+    line-height: 35px;
+    font-size: 30px;
     font-weight: 700;
     font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
 }

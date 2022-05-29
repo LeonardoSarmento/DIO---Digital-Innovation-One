@@ -1,0 +1,13 @@
+@media screen and (max-width:850px) {
+    .menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu-modulos{
+        width: 100%;
+    }
+    .header{
+        margin-top: 50px;
+    }
+}

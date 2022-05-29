@@ -51,37 +51,70 @@ h6{
 }
 a{
     text-decoration: none;
+    color: unset;
+}
+.lsportfolio{
+    margin: 10px 40px;
+}
+.lsportfolio a{
+    color: unset;
+    text-decoration: none;
 }
 .header{
     text-align: center;
     position: relative;
-    top: 80px;
+    top: 140px;
     height: 300px;
 }
+.menu{
+    display: flex;
+    position: fixed;
+    background-color: rgba(32, 37, 32, 0.808);
+    width: 100%;
+    justify-content: space-between;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+.menu-modulos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 500px;
+}
+.menu h3{
+    margin: 10px 10px 0 0;
+    font-size: 35px;
+}
 .container-m1{
-    background-color: bisque;
-    padding: 20px;
-
+    width: 100%;
+    margin-left: 15px;
 }
-.m1-certificados div{
-    margin: 15px;
-    text-align: center;
+.item embed{
+    width: 100%;
+    height: 500px;
 }
-.container-m1 embed{
-    width:600px;
-    height:450px;
+.item{
+    margin: 10px;
 }
-.m1-certificados{
-    display: grid;
-    grid-template-rows:1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+.carrosel-filmes{
+    margin: 10px;
+}
+.carrosel-filmes h2{
+    margin: 0 15px;
+    line-height: 35px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 .footer{
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
+    background-color: white;
 }
 .footer a{
     color: var(--secondary-color);
+    text-decoration: none;
 }
 .footer p{
     margin: 0;
@@ -90,38 +123,24 @@ a{
 .footer img{
     width: 1rem;
 }
-h4{
-    width: 100%;
-    height: 100px;
-    position: relative;
-    top: 30px;
-    margin-bottom: 10px ;
+.footer a:visited {
+    color: #888;
 }
-@media (max-width:930px){
-    .m1-certificados{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    .container-m1 embed{
-        width:100%;
-    }
+.footer a:link {
+    color: #666;
 }
-@media (min-width:931px) and (max-width:1399px){
-    .m1-certificados{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+@media screen and (max-width:600px) {
+    header .container{
+        display: flex;
+        flex-direction: column;
+        margin: 5px auto;
     }
-    .container-m1 embed{
-        width:100%;
+    .botao{
+        margin-top: 5px;
+        width: 300px;
     }
-}
-@media (min-width:1400px) and (max-width:1920px){
-    .m1-certificados{
-        display: grid;
-        grid-template-rows:1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    .container-m1 embed{
-        width:100%;
+    .filme-principal{
+        background-position: right 0px;
+
     }
 }
