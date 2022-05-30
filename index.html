@@ -17,21 +17,28 @@
 </head>
 
 <body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button" aria-pressed="true">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu">
+        <div class="menu-content">
+            <h1 class="menu-heading" onclick="getElementById('close-menu').checked = false;">
+                <a rel="nofollwow" target="_blank" href="https://leonardosarmento.github.io/Site/">LS PORTFOLIO</a>
+            </h1>
+            <nav>
+                <ul class="menu-list" onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#modulo1">Módulo 1</a></li>
+                    <li><a href="#modulo2">Módulo 2</a></li>
+                    <li><a href="#modulo3">Módulo 3</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <div class="menu-spacing"></div>
     <div class="header">
         <h1>Certificados Obtidos</h1>
         <p>Um simples site para organizar e centralizar todos os certificados obtidos durante o bootcamp do <a
-            rel="nofollwow" target="_blank" href="https://web.dio.me/track/carrefour-web-developer">Carrefour Web
-            Developer</a>.</p>
-        </div>
-        <div class="menu">
-        <div class="lsportfolio">
-            <h1><a rel="nofollwow" target="_blank" href="https://leonardosarmento.github.io/Site/">LS PORTFOLIO</a></h1>
-        </div>
-        <div class="menu-modulos">
-            <h3><a href="#modulo1">Módulo 1</a></h3>
-            <h3><a href="#modulo2">Módulo 2</a></h3>
-            <h3><a href="#modulo3">Módulo 3</a></h3>
-        </div>
+                rel="nofollwow" target="_blank" href="https://web.dio.me/track/carrefour-web-developer">Carrefour Web
+                Developer</a>.</p>
     </div>
     <div class="container-m1">
         <div id="series" class="carrosel-filmes">
@@ -91,7 +98,8 @@
                 </div>
                 <div class="item">
                     <h4>Recriando a Interface do Netflix - <a rel="nofollwow" target="_blank"
-                        href="https://leonardosarmento.github.io/DIO---Digital-Innovation-One/Carrefour%20Web%20Developer%20-%20Bootcamp/M%C3%B3dulo%202/index.html">Link</a></h4>
+                            href="https://leonardosarmento.github.io/DIO---Digital-Innovation-One/Carrefour%20Web%20Developer%20-%20Bootcamp/M%C3%B3dulo%202/index.html">Link</a>
+                    </h4>
                     <embed src="./Carrefour Web Developer - Bootcamp/Módulo 1/pdf/certificado-10.pdf#toolbar=0"
                         frameborder="0">
                 </div>
