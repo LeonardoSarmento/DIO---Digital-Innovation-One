@@ -81,4 +81,8 @@
     .close-menu {
         display: none;
     }
+    .item embed{
+      width: 100%;
+      height: 290px;
+  }
 }
